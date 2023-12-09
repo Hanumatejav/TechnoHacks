@@ -1,0 +1,45 @@
+*, *::before, *::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heading
+{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+#text
+{
+    font-size: 140px;
+}
+
+@media(max-width:1050px)
+{
+    #text
+    {
+        font-size: 80px;
+    }   
+}
+
+@media(max-width:350px)
+{
+    #text
+    {
+        font-size: 40px;
+    }  
+    #heading
+    {
+        font-size: 30px;
+    } 
+    #row
+    {
+        padding: 2px;
+    }
+    .btn
+    {
+        margin-left: 10px;
+        font-size: 11px;
+    }
+}
