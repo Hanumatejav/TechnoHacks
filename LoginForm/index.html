@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a5193192ff.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Login</h1>
+            <div id="label"></div>
+            <form action="/" id="form" method="GET">
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <i class='bx bxs-user'></i>
+                        <input autocomplete="off" type="text" placeholder="Email or Name" id="name_email">
+                    </div>
+                    <div class="input-field">
+                        <i class='bx bxs-lock'></i>
+                        <input type="password" placeholder="Password" id="myInput">
+                        <span class="eye" id="visible">
+                            <i id="hide1" class="fa-sharp fa-solid fa-eye"></i>
+                            <i id="hide2" class="fa-sharp fa-solid fa-eye-slash"></i>
+                        </span>
+                    </div>
+                    <p><a href="#">Forget Password?</a></p>
+                </div>
+                    <button type="submit" id="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
